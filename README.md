@@ -29,7 +29,7 @@ This Application is based on your daily task which can be save at `localStorage`
 ![Demo_Screenshot](https://github.com/prateek205/Todo_Task_App/blob/main/src/assets/todo_responsive.png?raw=true)
 
 ## 📽️ Demo
-https://todo-app-blush-beta-81.vercel.app/
+https://vercel.com/prateek205s-projects/todo-task-app/336ujrMaGR4w2pF7E1UHgNmBHHBZ
 
 ## 📦 Deployment
 - Vercel,
