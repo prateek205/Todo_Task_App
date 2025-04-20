@@ -14,16 +14,16 @@ This Application is based on your daily task which can be save at `localStorage`
 
 ## 📸 Screenshot
 #### 1. Home Page
-![Demo_Screenshot](https://github.com/prateek205/Todo_Task_App/blob/main/src/assets/todo_app.png?raw=true)
+![Demo_Screenshot](https://github.com/prateek205/Todo_Task_App/blob/main/src/assets/Todo_Home.png?raw=true)
 
 #### 2. Edit Function
-![Demo_ Screnshot](https://github.com/prateek205/Todo_Task_App/blob/main/src/assets/todo_editing.png?raw=true)
+![Demo_ Screnshot](https://github.com/prateek205/Todo_Task_App/blob/main/src/assets/Todo_Edit.png?raw=true)
 
-#### 3. Delete Function
-![Demo_ Screnshot](https://github.com/prateek205/Todo_Task_App/blob/main/src/assets/todo_deleting.png?raw=true)
+#### 3. Mark as Read Function
+![Demo_Screenshot](https://github.com/prateek205/Todo_Task_App/blob/main/src/assets/Todo_Mark%20as%20Read.png?raw=true)
 
-#### 4. Mark as Read Function
-![Demo_Screenshot](https://github.com/prateek205/Todo_Task_App/blob/main/src/assets/todo_mark-as-read.png?raw=true)
+#### 4. Delete Function
+![Demo_ Screnshot](https://github.com/prateek205/Todo_Task_App/blob/main/src/assets/Todo_Delete.png?raw=true)
 
 #### 5. Responsive Small Device
 ![Demo_Screenshot](https://github.com/prateek205/Todo_Task_App/blob/main/src/assets/todo_responsive.png?raw=true)
