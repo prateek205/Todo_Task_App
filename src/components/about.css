@@ -1,0 +1,34 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    font-family: "Ubuntu", sans-serif;
+}
+.container h2{
+    margin-top: 1%;
+    text-align: left;
+    font-size: 28px;
+}
+
+.contentList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    padding: 15px;
+}
+.contentList ul li{
+    margin: 3% 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:500px){
+    .contentList{
+        margin-top: 0;
+    }
+    .contentList ul li{
+        margin: auto 2px;
+    }
+}

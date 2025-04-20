@@ -1,0 +1,149 @@
+.main {
+  display: flex;
+  justify-content: center;
+  /* height: 82vh; */
+  padding: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.mainTask {
+  background-color: white;
+  padding: 20px;
+  height: 98vh;
+  min-width: 95vw;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+.heading {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.inputTask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1px;
+  padding-bottom: 10px;
+}
+.input {
+  width: 100%;
+}
+.input input {
+  width: 98%;
+  padding: 6px 5px;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+}
+.saveBtn button {
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
+
+.taskLists {
+  /* border: 2px solid black; */
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  height: 66vh;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 2%;
+}
+
+.noTsk {
+  /* border: 2px solid black; */
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+  height: 66vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.ntsk {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tskLst {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 6px;
+  gap: 10px;
+  margin-top: 2%;
+}
+.checkbox input {
+  cursor: pointer;
+}
+.tskBtn {
+  display: flex;
+  gap: 1%;
+}
+.editBtn button,
+.delBtn button,
+.tskLstInp input {
+  padding: 3px 8px;
+  border: none;
+  outline: none;
+  font-family: "Ubuntu", sans-serif;
+}
+.tskLstInp {
+  width: 100%;
+}
+.tskLstInp input {
+  /* border: 2px solid black; */
+  width: 95%;
+  font-size: 16px;
+}
+.editBtn button,
+.delBtn button {
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.25s ease-in-out;
+}
+.editBtn button:hover {
+  background-color: rgba(255, 255, 0, 0.8);
+}
+.delBtn button:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 500px) {
+  .inputTask {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .mainTask {
+    padding: 10px;
+    height: 753px;
+  }
+  .input input {
+    width: 100%;
+  }
+  .noTsk, .taskLists{
+      height: 558px;
+    }
+  .ntsk {
+    text-align: center;
+  }
+}

@@ -1,0 +1,17 @@
+.footer{
+    /* border: 2px solid black; */
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:500px){
+    .footer{
+        text-align: center;
+    }
+}
