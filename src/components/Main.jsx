@@ -102,7 +102,7 @@ const Main = () => {
                 cursor: input.trim() === "" ? "not-allowed" : "pointer",
               }}
             >
-              Add
+              <i className="fa-solid fa-floppy-disk"></i>{" "}
             </button>
           </div>
         </div>
@@ -144,7 +144,7 @@ const Main = () => {
                           }}
                           disabled={item.isCompleted}
                         >
-                          Edit
+                          <i className="fa-solid fa-pen-to-square"></i>
                         </button>
                       </div>
                       <div className="delBtn">
@@ -153,7 +153,7 @@ const Main = () => {
                             handleDel(e, item.id);
                           }}
                         >
-                          Delete
+                          <i className="fa-solid fa-trash-can"></i>
                         </button>
                       </div>
                     </div>
