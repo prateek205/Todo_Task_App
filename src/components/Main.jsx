@@ -82,7 +82,7 @@ const Main = () => {
     <div className="main">
       <div className="mainTask">
         <div className="heading">
-          <h1>To-do Task</h1>
+          <h1>let's Manage your Daily Task at one place</h1>
         </div>
         <div className="inputTask">
           <div className="input">
